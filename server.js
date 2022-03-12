@@ -1,7 +1,7 @@
 var http = require('http');
 var handleRequest = function(request, response) {
 	response.writeHead(200);
-	response.end("This is  GCP Cloud Testing for Jenkins and Docker push!");
+	response.end("This is  GCP Cloud Testing for Jenkins and Dockerh!");
 }
 
 var www = http.createServer(handleRequest);
