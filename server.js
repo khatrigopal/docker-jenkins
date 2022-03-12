@@ -1,7 +1,7 @@
 var http = require('http');
 var handleRequest = function(request, response) {
 	response.writeHead(200);
-	response.end("This is  GCP Cloud Testingn!");
+	response.end("This is  GCP Cloud Testing!");
 }
 
 var www = http.createServer(handleRequest);
